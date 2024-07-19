@@ -3,87 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lecture Source Code</title>
-   <style>
-     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <title>C - Lecture Source Code Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: #f4f7f6;
+            color: #333;
+        }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
+        header {
+             background: rgba(0, 0, 0, 0.2);/* Glass effect background */
+            backdrop-filter: blur(12px); /* Frosted glass effect */
+            -webkit-backdrop-filter: blur(12px); /* For Safari */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
-main {
-    flex: 1;
-    padding: 1rem;
-}
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
 
-.lecture {
-    margin-bottom: 2rem;
-}
+        main {
+            flex: 1;
+            padding: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-h2 {
-    margin-bottom: 0.5rem;
-}
+        .lecture {
+            margin-bottom: 2rem;
+        }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
+        h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: #1d1d1d;
+        }
 
-li {
-    margin-bottom: 0.5rem;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-a {
-    text-decoration: none;
-    color: #007BFF;
-}
+        li {
+            margin-bottom: 0.8rem;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: auto;
-}
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
 
-@media (max-width: 600px) {
-    header, footer {
-        padding: 0.5rem;
-    }
+        footer {
+            background: rgba(0, 0, 0, 0.2); /* Glass effect background */
+            backdrop-filter: blur(12px); /* Frosted glass effect */
+            -webkit-backdrop-filter: blur(12px); /* For Safari */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
 
-    h1 {
-        font-size: 1.5rem;
-    }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
 
-    h2 {
-        font-size: 1.2rem;
-    }
+            h2 {
+                font-size: 1.3rem;
+            }
 
-    p {
-        font-size: 0.9rem;
-    }
-}
-
-   </style>
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        .lecture h2{
+            color:salmon;
+        }
+        .lecture{
+            border:0.2px solid rgba(250, 128, 114, 0.366);
+            padding:2vw;
+            border-radius:1vw;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -91,47 +119,41 @@ footer {
     </header>
     <main>
         <section class="lecture">
-            <h2>Lecture 2 & 3 </h2>
+            <h2>Lecture 2 & 3</h2>
             <ul>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/d-f.c" download> Source Code - fahrenheit to celsius</a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/displacement.c" download>Source Code  - Displacement </a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/force.c" download>Source Code - Force Formula </a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/area.c" download>Source Code - Area of Rectangle </a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/d-f.c" download>Source Code - Fahrenheit to Celsius</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/displacement.c" download>Source Code - Displacement</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/force.c" download>Source Code - Force Formula</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/area.c" download>Source Code - Area of Rectangle</a></li>
             </ul>
         </section>
 
         <section class="lecture">
-            <h2>Lecture 4 </h2>
+            <h2>Lecture 4</h2>
             <ul>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/avg.c" download> Source Code - Average of 5 Nums Without Arr</a></li>
-                
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/avg.c" download>Source Code - Average of 5 Numbers Without Array</a></li>
             </ul>
         </section>
 
         <section class="lecture">
-            <h2>Lecture 5 </h2>
+            <h2>Lecture 5</h2>
             <ul>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/InpOutArr.c" download> Source Code - Inputting & outputting elements in array</a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/AverageArr.c" download> Source Code - Inputting & finding average for n elements in array</a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/SD.c" download> Source Code - Inputting & finding Standard Deviation for n elements in array</a></li>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/cel-fel.c" download> Source Code - Converting Cel  2 Fel Using an array</a></li>
-                
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/InpOutArr.c" download>Source Code - Inputting & Outputting Elements in Array</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/AverageArr.c" download>Source Code - Finding Average for N Elements in Array</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/SD.c" download>Source Code - Finding Standard Deviation for N Elements in Array</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/cel-fel.c" download>Source Code - Converting Celsius to Fahrenheit Using an Array</a></li>
             </ul>
         </section>
 
-
-         <section class="lecture">
-            <h2>Lecture 6 </h2>
-             
+        <section class="lecture">
+            <h2>Lecture 6</h2>
             <ul>
-                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/SD.c" download> Source Code - Inputting & finding Standard Deviation Again!</a></li>
+                <li><a href="https://github.com/mdrayaanpasha/sju-c-basics/blob/main/SD.c" download>Source Code - Finding Standard Deviation Again!</a></li>
             </ul>
         </section>
-       
-       
     </main>
     <footer>
-        <p>Rayaan.</p>
+        <p>&copy; 2024 Rayaan.</p>
     </footer>
 </body>
 </html>
