@@ -19,14 +19,16 @@
             min-height: 100vh;
             background: #f4f7f6;
             color: #333;
+            background-color: black;
         }
 
         header {
-             background: rgba(0, 0, 0, 0.2);/* Glass effect background */
+             background: rgba(255, 255, 255, 0.2);/* Glass effect background */
             backdrop-filter: blur(12px); /* Frosted glass effect */
             -webkit-backdrop-filter: blur(12px); /* For Safari */
-            color: #fff;
-            padding: 1rem;
+            color: white;
+            padding: 0.4vw;
+            border-radius: 0 0 1vw 1vw;
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
             position: sticky;
@@ -80,7 +82,9 @@
         }
 
         footer {
-            background: rgba(0, 0, 0, 0.2); /* Glass effect background */
+            background: rgba(255, 255, 255, 0.2);/* Glass effect background */
+
+      
             backdrop-filter: blur(12px); /* Frosted glass effect */
             -webkit-backdrop-filter: blur(12px); /* For Safari */
             color: #fff;
@@ -102,20 +106,25 @@
             p {
                 font-size: 0.9rem;
             }
+            .lecture{
+                border-radius: 4vw !important;
+            }
         }
         .lecture h2{
             color:salmon;
         }
         .lecture{
-            border:0.2px solid rgba(250, 128, 114, 0.366);
+            border:0.2px solid rgba(250, 128, 114, 0.408);
             padding:2vw;
             border-radius:1vw;
+            box-shadow: 0px 0px 10px rgba(245, 140, 130, 0.6);
+
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>C - Lecture Source Code Repository</h1>
+        <h1>C - Lecture Source Code </h1>
     </header>
     <main>
         <section class="lecture">
