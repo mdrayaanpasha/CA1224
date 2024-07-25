@@ -11,17 +11,17 @@
 
 int main()
 {
-    int A,R;
+    int R,A;
     float SquareArea, CircleArea,Ans;
     
     
     printf("this is a programme to Compute The Area not Covered by circle inside the square! \n");
     
-    printf("what is the lenght of side of square? \n");
-    scanf("%d",&A);
+   
     
     printf("what is the radius of circle? \n");
     scanf("%d",&R);
+    A=R*2;
     
     SquareArea = (float) A * (float) A;
     CircleArea = 3.14 * (float) R * (float) R;
