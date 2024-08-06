@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains code related to a class project developed by Rayaan Pasha. The code and resources provided here are intended solely for personal use and convenience of the author. The project has been designed to assist in the organization and management of class-related materials. 
+This repository contains code related to a C Class Codes developed by Rayaan Pasha. The code and resources provided here are intended solely for personal use and convenience of the author. The project has been designed to assist in the organization and management of class-related materials. 
 
 **Important Note:** The use, sharing, or distribution of this code and associated resources is not permitted beyond personal use by the author. Any individual or entity accessing this repository should be aware that any usage beyond this scope is solely their responsibility.
 
@@ -21,8 +21,4 @@ The primary purpose of this repository is to:
 
 ## Contact
 
-For any inquiries or concerns regarding this repository, please contact [Your Contact Information].
-
----
-
-Feel free to adjust the contact details and any other specifics as needed!
+For any inquiries or concerns regarding this repository, please contact mdrayaanpasha@gmail.com
