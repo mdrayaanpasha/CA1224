@@ -26,7 +26,7 @@ def removeBad(g,available,prefrence,BR):
     #eliminate not highest, and add them in rejected!
     available[0]=highest
     for i in range(len(available)):
-        if available[i] != highest:
+        if available[i] != highest and i not 0:
             BR[g].append(available[i])
             available[i]=None
             
