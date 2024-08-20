@@ -7,11 +7,13 @@
 #include <stdio.h>
 
 int main() {
-    int N,fact,i;
+    int N,i;
+    double fact;
     
     printf("This Programme is to compute the factorial!\n Whats N?\n");
     scanf("%d",&N);
-    i=fact=1;
+    i=1;
+    fact=1.0;
     
     while(i<=N){
         
@@ -26,6 +28,6 @@ int main() {
         
         
     }
-    printf("\nThe Factorial is: %d",fact);
+    printf("\nThe Factorial is: %f",fact);
     return 0;
 }
