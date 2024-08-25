@@ -4,7 +4,7 @@ int main(){
     printf("Whats n & r?\n");
     scanf("%d%d",&n,&r);
     factn=factr=factdif=1;
-    i=2;
+
     s1=n-r;
     
     for(i=2;i<=n;i++){
