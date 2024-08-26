@@ -11,15 +11,17 @@ int main() {
     scanf("%d",&n);
     i=1;
     term=1;
-    sum=1;
+    sum=0;
     while (i <= n){
-        sum+=term*(term*term+1);
+       
+        term = term * (i * (i + 1));
         if(i!=n){
-            printf("%d!*%d! + ",term,term+1);
+            printf("(%d! * %d!) + ",i,i+1);
         }else{
-            printf("%d!*%d!",term,term+1);
+            printf("(%d! * %d!)",i,i+1);
         }
-        term++;
+        
+        sum+=term;
         i++;
         
     }
