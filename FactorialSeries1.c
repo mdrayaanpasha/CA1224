@@ -11,7 +11,7 @@ int main() {
     scanf("%d",&n);
     i=1;
     term=1;
-    
+    sum=1;
     while (i <= n){
         sum+=term*(term*term+1);
         if(i!=n){
