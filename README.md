@@ -1,6 +1,6 @@
-# CA1124 Repository
+# CA1224 Repository
 
-Digital Archieve of CA1124… SJU’s first class on programming: ** Programming with C ** repository!
+Digital Archieve of CA1224… SJU’s first class on programming: ** Programming with C ** repository!
 I made it during during my lectures at St. Joseph's University (SJU). 
 It serves as a personal archive and a learning resource for fellow students.
 
@@ -19,7 +19,7 @@ The project has been reorganized into logical categories for better navigability
 
 ## 🌐 Web Interface
 
-You can navigate through the lecture-wise source code using the included [index.html](./index.html). It provides a clean, categorized view of all the exercises linked to their respective dates and lecture numbers.
+You can navigate through the lecture-wise source code using the included [link](https://mdrayaanpasha.github.io/CA1224/). It provides a clean, categorized view of all the exercises linked to their respective dates and lecture numbers.
 
 ## 🚀 Getting Started
 
