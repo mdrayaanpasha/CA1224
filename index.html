@@ -1,1 +1,278 @@
-Yello!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C - Lecture Source Code Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: black;
+            color: #333;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        main {
+            flex: 1;
+            padding: 1.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .lecture {
+            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 1rem;
+            border: 1px solid rgba(250, 128, 114, 0.3);
+            box-shadow: 0px 0px 15px rgba(245, 140, 130, 0.2);
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: salmon;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            color: #ccc;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #agree {
+            color: white;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        #agree a {
+            color: salmon;
+        }
+
+        b {
+            color: #eee;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .lecture {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>C - Lecture Source Code</h1>
+    </header>
+    <main>
+        <p id="agree">Read <a href="./user.html">Student Message</a> Before Using.</p>
+
+        <section class="lecture">
+            <h2>Lecture 17 | Tuesday | 27th August '24</h2>
+            <ul>
+                <li><a href="./src/series/ncombinations.c">Source Code - NCR</a></li>
+                <li><a href="./src/basics/F2C2F.c">Source Code - Fahrenheit to Celsius to Fahrenheit.</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 16 | Monday | 26th August '24</h2>
+            <ul>
+                <li><a href="./src/series/FactorialSeries0.c">Source Code - Sum of Factorial of n terms</a></li>
+                <li><a href="./src/series/FactorialSeries1.c">Source Code - (1!*2!)+(2!+3!)......n terms</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 15 | Tuesday | 20th August '24</h2>
+            <ul>
+                <li><a href="./src/series/SumSeries.c">Source Code - Sum of N natural numbers.</a></li>
+                <li><a href="./src/series/SumOddSeries.c">Source Code - Sum of N natural Odd numbers.</a></li>
+                <li><a href="./src/series/SumEvenSeries.c">Source Code - Sum of N natural Even numbers.</a></li>
+                <li><a href="./src/series/factorial.c">Source Code - Factorial.</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 14 | Monday | 16th August '24</h2>
+            <ul>
+                <li><a href="./src/matrices/Trace.c">Source Code - Trace of a Matrix</a></li>
+                <li><a href="./src/matrices/MatMax.c">Source Code - Maximum of a Matrix</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 13 | Monday | 12th August '24</h2>
+            <ul>
+                <li><a href="./src/search_sort/BubbleSort.c">Source Code - Bubble Sort</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 12 | Tuesday | 6th August '24</h2>
+            <ul>
+                <li><a href="./src/search_sort/search.c">Source Code - Find Numbers in an array</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 11 | Monday | 5th August '24</h2>
+            <ul>
+                <li><a href="./src/basics/PorFWithElse.c">Source Code - Check if passed or failed, With Class.</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 10 | Tuesday | 30th July '24</h2>
+            <ul>
+                <li><a href="./src/basics/Even.c">Source Code - Check if passed or failed.</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 9 | Monday | 29th July '24</h2>
+            <ul>
+                <li><a href="./src/basics/Even.c">Source Code - Check if number is even or not.</a></li>
+                <li><a href="./src/basics/5div.c">Source Code - Check if divisible by 5.</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 8 | Friday | 26th July '24</h2>
+            <ul>
+                <li><a href="./src/matrices/matrixInpOut.c">Source Code - Matrix input & output.</a></li>
+                <p><b>HomeWork: </b></p>
+                <li><a href="./src/matrices/matrixAdd.c">Source Code - Matrix Addition</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 7 | Monday | 22nd July '24</h2>
+            <ul>
+                <li><a href="./src/basics/TriangleArea.c">Source Code - Area Of Triangle</a></li>
+                <li><a href="./src/basics/AreaNotCovered.c">Source Code - Area Not Covered By the Circle</a></li>
+                <p><b>HomeWork: </b></p>
+                <li><a href="./src/series/TaylorSin.c">Source Code - Finding Taylor Series For Sin!</a></li>
+                <li><a href="./src/series/TaylorCos.c">Source Code - Finding Taylor Series For Cos!</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 6 | Friday | 19th July '24</h2>
+            <ul>
+                <li><a href="./src/arrays/SD.c">Source Code - Finding Standard Deviation Again!</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 5 | Tuesday | 16th July '24</h2>
+            <ul>
+                <li><a href="./src/arrays/InpOutArr.c">Source Code - Inputting & Outputting Elements in Array</a></li>
+                <li><a href="./src/arrays/AverageArr.c">Source Code - Finding Average for N Elements in Array</a></li>
+                <li><a href="./src/arrays/1SD.c">Source Code - Finding Standard Deviation for N Elements in Array</a></li>
+                <li><a href="./src/basics/cel-fel.c">Source Code - Converting Celsius to Fahrenheit Using an Array</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 4 | Friday | 12th July '24</h2>
+            <ul>
+                <li><a href="./src/basics/avg.c">Source Code - Average of 5 Numbers Without Array</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Lecture 2 & 3 | Tuesday | 9th July '24</h2>
+            <ul>
+                <li><a href="./src/basics/d-f.c">Source Code - Fahrenheit to Celsius</a></li>
+                <li><a href="./src/basics/displacement.c">Source Code - Displacement</a></li>
+                <li><a href="./src/basics/force.c">Source Code - Force Formula</a></li>
+                <li><a href="./src/basics/area.c">Source Code - Area of Rectangle</a></li>
+            </ul>
+        </section>
+
+        <section class="lecture">
+            <h2>Additional Exercises & Lab Work</h2>
+            <ul>
+                <li><a href="./src/basics/AreaCircle.c">Area of Circle</a></li>
+                <li><a href="./src/basics/AreaRect.c">Area of Rectangle (Alternative)</a></li>
+                <li><a href="./src/basics/PorF.c">Pass or Fail (Simple)</a></li>
+                <li><a href="./src/basics/UDFCel2Fel.c">Celsius to Fahrenheit (User Defined Function)</a></li>
+                <li><a href="./src/arrays/arrmax.c">Maximum Element in Array</a></li>
+                <li><a href="./src/arrays/function-AvgArr.c">Average of Array (Using Functions)</a></li>
+                <li><a href="./src/series/OddSeries.c">Sum of Odd Series</a></li>
+                <li><a href="./src/search_sort/binsearch.c">Binary Search</a></li>
+                <li><a href="./src/lab/employeeSalary.c">Employee Salary Calculation</a></li>
+                <li><a href="./src/lab/get75%.c">Calculate 75% Attendance</a></li>
+                <li><a href="./src/lab/studentdetails.c">Student Details Management</a></li>
+                <li><a href="./src/file_io/cat.c">File Handling - Cat (Read)</a></li>
+                <li><a href="./src/file_io/cli.c">File Handling - CLI Arguments</a></li>
+                <li><a href="./src/file_io/cpy.c">File Handling - Copy</a></li>
+                <li><a href="./src/file_io/fileArr.c">File Handling - Array to File</a></li>
+                <li><a href="./src/file_io/rayaan_copy.c">File Handling - Rayaan's Copy</a></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Mohammed Rayaan Pasha. Licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</p>
+    </footer>
+</body>
+</html>

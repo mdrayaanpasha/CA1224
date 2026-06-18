@@ -3,31 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Project Repository</title>
+    <title>Student Message - Rayaan Pasha</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
+            color: #eee;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 2rem;
+            align-items: center;
         }
-        h1, h2, h3, a {
-            text-decoration: none;
-            color: tomato;
+
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 3rem;
+            border-radius: 1.5rem;
+            border: 1px solid rgba(250, 128, 114, 0.3);
+            box-shadow: 0px 0px 20px rgba(245, 140, 130, 0.1);
         }
+
+        h1 {
+            color: salmon;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        h2 {
+            color: salmon;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
         p {
-            margin: 0 0 1em 0;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            text-decoration: none;
+            color: salmon;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+
+        .highlight {
+            color: salmon;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 2rem;
+            text-align: center;
+            color: #888;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-<h1><a href="./index.html"> &larr; Go Back to Homepage</a></h1>
-    <h2>Important Information</h2>
-    <p>This repository contains code related to a C class, developed by Rayaan Pasha. The code and resources provided here are intended primarily for the personal use and convenience of the author. The repository is designed to assist in the organization and management of class-related materials.</p>
-    <p><strong>Important Note:</strong> Although this code is shared under the Creative Commons CC0 1.0 Universal (CC0) License, which places it into the public domain, it is specifically intended for personal use by the author. The use, sharing, or distribution of this code beyond its intended personal use is not advised. If you choose to use or distribute this code, you do so at your own risk. Rayaan Pasha is not responsible for any issues or consequences arising from the use of this code. As the code is provided "as is" without any warranties or guarantees, you are fully responsible for any problems or damages resulting from its use or misuse.</p>
+    <div class="container">
+        <a href="./index.html" class="back-link">&larr; Back to Repository</a>
+        <h1>Hey there! 👋</h1>
+        
+        <p>I'm <span class="highlight">Rayaan Pasha</span>, and this repository is a collection of my journey through the C programming lecture series. I built this to keep my code organized and easily accessible during my studies.</p>
 
-    <h2>Contact</h2>
-    <p>For any inquiries or concerns regarding this repository, please contact <a href="mailto:mdrayaanpasha@gmail.com">mdrayaanpasha@gmail.com</a>.</p>
+        <p>While I've shared this code publicly under the <span class="highlight">CC0 (Public Domain) license</span>, please keep in mind that these are student exercises. They are meant for reference and learning, not for production use or as a definitive guide.</p>
+
+        <h2>A Quick Note</h2>
+        <p>Feel free to explore, learn from, or even use the code in your own projects. However, please remember that I'm sharing this "as-is." Since these were written as part of my learning process, there might be bugs or non-optimal solutions. I can't be held responsible for any issues that arise from using this code.</p>
+
+        <p>If you have any questions, suggestions, or just want to talk about C programming, feel free to reach out!</p>
+
+        <h2>Contact</h2>
+        <p>📧 Email: <a href="mailto:mdrayaanpasha@gmail.com">mdrayaanpasha@gmail.com</a></p>
+    </div>
+
+    <footer>
+        &copy; 2024 Mohammed Rayaan Pasha
+    </footer>
 </body>
 </html>
